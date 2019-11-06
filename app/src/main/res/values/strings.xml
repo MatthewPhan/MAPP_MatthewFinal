@@ -5,5 +5,12 @@
     <string name="editText_main">Enter your message here</string>
     <string name="text_header_reply">Reply received</string>
     <string name="button_second">Reply</string>
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
 </resources>
 

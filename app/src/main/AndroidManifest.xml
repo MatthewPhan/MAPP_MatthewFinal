@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".P06ActivityClickImage"
+            android:label="@string/title_activity_p06_click_image"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+
+        <!--<activity
             android:name=".P05ActivityImplicit"
             android:parentActivityName=".MainActivity">
             <intent-filter>
@@ -17,20 +29,24 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!--<activity
+        </activity>-->
+        <!--
+<activity
             android:name=".P04SecondActivity"
             android:parentActivityName=".MainActivity">
-        </activity>-->
-
+        </activity>
+        -->
         <activity
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">
-            <!--<intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
     </application>
 
